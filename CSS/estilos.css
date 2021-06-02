@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+:root{
+	--fuenteUno: 700 95px/154px 'Poppins', sans-serif;
+	--fuenteDos: 700 59px/95px 'Poppins', sans-serif;
+	--fuenteTres: 700 48px/78px 'Poppins', sans-serif;
+	--fuenteCuatro: 700 34px/55px 'Poppins', sans-serif;
+	--fuenteCinco: 700 24px/39px 'Poppins', sans-serif;
+	--cuerpoCero:700 16px/26px 'Poppins', sans-serif;
+	--cuerpoUno:normal 16px/26px 'Poppins', sans-serif;
+	--cuerpoDos:normal 14px/23px 'Poppins', sans-serif;
+	--boton: 700 14px/23px 'Poppins', sans-serif;
+	--caption: 12px/20px 'Poppins', sans-serif;
+	--primario-blue: #310A90;
+	--primario--navy: #42E2B8;
+	--white: #FFF;
+	--gradi: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);;
+}

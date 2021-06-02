@@ -1,0 +1,70 @@
+.form{
+	inline-size: 100%;
+	block-size: auto;
+	padding-block-start:2.5rem ;
+	padding-block-end: 5rem;
+	padding-inline-start: 1rem;
+	padding-inline-end: 1rem;
+}
+@media only screen and (min-width: 600px){
+	.form{
+		padding-inline-start:3rem ;
+		padding-inline-end: 3rem;
+	}
+}
+@media only screen and (min-width: 800px){
+	.form{
+		padding-inline-start:4.5rem ;
+		padding-inline-end: 4.5rem;
+	}
+}
+@media only screen and (min-width: 950px){
+	.form{
+		padding-inline-start:6rem ;
+		padding-inline-end: 6rem;
+	}
+}
+@media only screen and (min-width: 1000px){
+	.form{
+		padding-inline-start:13.5rem ;
+		padding-inline-end: 13.5rem;
+	}
+}
+.form_texto{
+	margin-block-start: 1rem;
+	margin-block-end: 1rem;
+	font: var(--cuerpoUno);
+	color: var(--white);
+}
+.formulario{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.etiqueta{
+	font: var(--cuerpoCero);
+	margin-block-end: 1rem;
+}
+.formulario_entrada{
+	display: block;
+	width: 100%;
+	padding-block-start:0.75rem ;
+	padding-block-end: 0.75rem;
+	padding-inline-start:1rem ;
+	padding-inline-end: 1rem;
+	border-radius: 0.5rem;
+	background: var(--white);
+	border: 1px solid #858c94;
+	outline: none;
+	font: var(--cuerpoUno);
+	margin-block-end: 1rem;
+}
+.text_area{
+	display: block;
+	width: 100%;
+	resize: none;
+}
+.mid{
+	width: 100%;
+	margin-block-start: 1rem;
+}

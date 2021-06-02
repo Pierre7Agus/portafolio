@@ -1,0 +1,11 @@
+.enlace_boton{
+	display: inline-block;
+	background: var(--primario-blue);
+	font: var(--fuenteCinco);
+	color: var(--white);
+	padding-block-start:0.25rem ;
+	padding-block-end:0.25rem ;
+	padding-inline-start: 0.5rem;
+	padding-inline-end: 0.5rem;
+	box-shadow: -4px 4px 0px  var(--white);
+}

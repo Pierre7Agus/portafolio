@@ -1,0 +1,16 @@
+.footer{
+	padding-inline-start:1rem ;
+	padding-inline-end: 1rem;
+	padding-block-end: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.mensaje{
+	font: var(--cuerpoUno);
+	color: var(--white);
+	text-align: center;
+}
+.mensaje > p{
+	margin-block-end: 1rem;
+}
